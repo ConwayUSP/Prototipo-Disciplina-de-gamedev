@@ -7,11 +7,14 @@ var speed: float = 100
 	#rotation_degrees += delta * rotation_speed
 
 func _process(delta: float):
+	var dir = Vector2(0, 0)
 	if Input.is_action_pressed("ui_right"):
-		position.x += delta * speed
+		dir.x += 1
 	if Input.is_action_pressed("ui_left"):
-		position.x -= delta * speed
+		dir.x -= 1
 	if Input.is_action_pressed("ui_up"):
-		position.y -= delta * speed
+		dir.y -= 1
 	if Input.is_action_pressed("ui_down"):
-		position.y += delta * speed
+		dir.y += 1
+	
+	position += dir.normalized() * delta * speed
