@@ -1,14 +1,11 @@
 extends CharacterBody2D
 
-#var rotation_speed: float = 180
 var speed: float = 120
 @onready var sprite: AnimatedSprite2D = $AnimatedSprite2D
 
-#func _physics_process(delta: float) -> void:
-	#rotation_degrees += delta * rotation_speed
 
 func _process(delta: float):
-	sprite.play("idle")
+	sprite.play("idle") # NOVO
 	
 	var dir = Vector2()
 	if Input.is_action_pressed("ui_right"):
