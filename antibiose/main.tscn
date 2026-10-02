@@ -1,11 +1,7 @@
 [gd_scene format=3 uid="uid://cd8by4n33pe6a"]
 
-[ext_resource type="Texture2D" uid="uid://23ke0xcss3xf" path="res://assets/connie_frame.png" id="1_ig7tw"]
-[ext_resource type="Script" uid="uid://0v86m3gqhbs8" path="res://sprite_2d.gd" id="2_0xm2m"]
+[ext_resource type="PackedScene" uid="uid://b1dohme4nr2qc" path="res://player.tscn" id="1_ig7tw"]
 
 [node name="Node2D" type="Node2D" unique_id=803169010]
 
-[node name="Sprite2D" type="Sprite2D" parent="." unique_id=20371868]
-position = Vector2(316, 197)
-texture = ExtResource("1_ig7tw")
-script = ExtResource("2_0xm2m")
+[node name="Player" parent="." unique_id=1039669996 instance=ExtResource("1_ig7tw")]

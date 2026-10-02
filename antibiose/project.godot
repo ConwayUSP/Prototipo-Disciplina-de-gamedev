@@ -12,7 +12,7 @@ config_version=5
 
 config/name="Antibiose"
 run/main_scene="uid://cd8by4n33pe6a"
-config/features=PackedStringArray("4.6", "Forward Plus")
+config/features=PackedStringArray("4.7", "Forward Plus")
 
 [display]
 
@@ -20,6 +20,10 @@ window/size/viewport_width=640
 window/size/viewport_height=360
 window/size/mode=2
 window/stretch/mode="canvas_items"
+
+[editor]
+
+movie_writer/movie_file="/home/caiovb/Projects/ConwayUSP/Antibiose/antibiose/gravacao.mp4.avi"
 
 [physics]
 
