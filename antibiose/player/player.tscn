@@ -137,9 +137,6 @@ animations = [{
 "speed": 5.0
 }]
 
-[sub_resource type="CircleShape2D" id="CircleShape2D_onrkg"]
-radius = 6.0
-
 [node name="Player" type="CharacterBody2D" unique_id=1039669996]
 script = ExtResource("1_onrkg")
 
@@ -147,6 +144,9 @@ script = ExtResource("1_onrkg")
 sprite_frames = SubResource("SpriteFrames_3de1g")
 animation = &"idle"
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1412355185]
-position = Vector2(1, 0)
-shape = SubResource("CircleShape2D_onrkg")
+[node name="Camera2D" type="Camera2D" parent="." unique_id=728460108]
+zoom = Vector2(2, 2)
+position_smoothing_enabled = true
+drag_horizontal_enabled = true
+drag_vertical_enabled = true
+editor_draw_limits = true
