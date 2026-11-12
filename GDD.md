@@ -50,12 +50,14 @@ Um ambiente acolhedor de dia, que de noite se torna perigoso e intimidador, o jo
 **2.5 Referências e diferenciais.**
 - **Dome Keeper**: principal inspiração das mecânicas do jogo (hordas, mineração, upgrades, etc).
 
-![[Pasted image 20261112100137.png]]
+![](assets/domekeeper.png)
+
 Fig 1. Ft. DomeKeeper (Imagem de referência)
 
 - **MushRooms**: design artístico e nosso protagonista *Mush*.
 
-![[0.png|700]]
+![](assets/antibiose.png)
+
 Fig 2. Estilo de Arte pensado.
 
 **2.6 Metas.**
